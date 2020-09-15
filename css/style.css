@@ -2,12 +2,7 @@
 *{
   margin: 0;
   padding: 0;
-  /*box-sizing: border-box;*/
-}
-
-.center{
-  width: 1280px;
-  margin: 0 auto;
+  box-sizing: border-box; /* impede que um objeto aumente de tamanho ao modificar proriedades como padding */
 }
 
 .header{
@@ -16,12 +11,33 @@
   background-color: #212343;
 }
 
-.header-bg{
-  width: 100%;
-  height: 500px;
+/* header logo attributes */
+.header img {
+  margin-left: 40px;
+  margin-top: 17px;
 }
 
+.header-bg{
+  width: 100%;
+  height: 450px;
+}
+
+/* background image attribues */
 .header-bg img{
   width: 100%;  /* image will resize fit its width parent */
   height: 100%; /* image will resize fit its height parent */
+}
+
+.about{
+  background-color: #DDDDDD;
+  width: 100%;
+  height: 250px;
+  padding: 30px 380px;
+}
+
+.about h2{
+  text-align: center;
+}
+.about p{
+  margin-top: 10px;
 }
