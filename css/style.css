@@ -1,0 +1,27 @@
+/* reset margin and padding */
+*{
+  margin: 0;
+  padding: 0;
+  /*box-sizing: border-box;*/
+}
+
+.center{
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.header{
+  width: 100%;
+  height: 60px;
+  background-color: #212343;
+}
+
+.header-bg{
+  width: 100%;
+  height: 500px;
+}
+
+.header-bg img{
+  width: 100%;  /* image will resize fit its width parent */
+  height: 100%; /* image will resize fit its height parent */
+}
