@@ -17,15 +17,11 @@
   margin-top: 17px;
 }
 
-.header-bg{
+.banner{
   width: 100%;
   height: 450px;
-}
-
-/* background image attribues */
-.header-bg img{
-  width: 100%;  /* image will resize fit its width parent */
-  height: 100%; /* image will resize fit its height parent */
+  background-image: url("../images/header_bg.png");
+  background-position: center;
 }
 
 .about{
