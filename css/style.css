@@ -9,18 +9,18 @@ html,body{
   height: 100%;
 }
 
+/***** HEADER STYLE ******/
 .header{
   width: 100%;
   height: 60px;
   background-color: #212343;
 }
-
-/* header logo attributes */
 .header img {
   margin-left: 40px;
   margin-top: 17px;
 }
 
+/***** BANNER STYLE ******/
 .banner{
   width: 100%;
   height: 70%;
@@ -29,6 +29,7 @@ html,body{
 
 }
 
+/***** LIST DIV STYLE *****/
 .banner div{
   background-color: rgba(33, 35, 67, 0.5);
   width: 50%;
@@ -37,26 +38,40 @@ html,body{
   margin-top: 75px;
   display: inline-block;
 }
-
 .banner div ul{
   color: white;
   margin: 40px 35px;
 }
-
 .banner div ul li{
   margin-bottom: 20px;
 }
 
+/****** ABOUT STYLE ******/
 .about{
   background-color: #DDDDDD;
   width: 100%;
-  height: 250px;
-  padding: 30px 380px;
+  height: auto;
+  padding: 30px 380px 50px 380px ;
 }
-
 .about h2{
   text-align: center;
 }
 .about p{
   margin-top: 10px;
+}
+
+/****** SERVICES STYLE ******/
+.services{
+  background-color: white;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+.serv-description div{
+  margin-top: 80px;
+  display: inline-block;
+}
+
+.serv-description div h3{
+  margin: auto 100px;
 }
