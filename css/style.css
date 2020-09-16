@@ -28,8 +28,8 @@ html,body{
   background-size: 100% 100%;
 }
 
-/***** LIST DIV *****/
-.banner div{
+/***** LIST  *****/
+.banner .list{
   background-color: rgba(33, 35, 67, 0.5);
   width: 50%;
   height: auto;
@@ -37,12 +37,41 @@ html,body{
   margin-top: 75px;
   display: inline-block;
 }
-.banner div ul{
+.banner .list ul{
   color: white;
   margin: 40px 35px;
 }
-.banner div ul li{
+.banner .list ul li{
   margin-bottom: 20px;
+}
+
+/****** FORM *******/
+.banner form{
+  width: 400px;
+  float: right;
+  background-color: white;
+  color: #999999;
+  border: 10px solid #CCCCCC;
+  padding: 20px 10px;
+  margin-right: 50px;
+  appearance: none;
+}
+.banner form p{
+  margin-left: 2px;
+}
+.banner form > p:first-of-type{
+  margin-bottom: 20px;
+}
+.banner form > p:last-of-type{
+  margin: 40px auto;
+}
+.banner form div{
+  margin: 15px auto;
+}
+.banner form div input[type=text]{
+  width: 96%;
+  height: 45px;
+  border: 1px solid #CCCCCC;
 }
 
 /****** ABOUT ******/
