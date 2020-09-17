@@ -7,6 +7,7 @@
 
 html,body{
   height: 100%;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .center{
@@ -39,12 +40,13 @@ html,body{
   height: auto;
   margin-left: 50px;
   margin-top: 75px;
-  display: inline-block;
+  display: inline-block; /* OU float: left; */
   font-size: 20px;
 }
 .list ul{
   color: white;
   margin: 40px 35px;
+  /*list-style-position: inside;*/ /*marcadores da lista ficam dentro da div*/
 }
 .list ul li{
   margin-bottom: 20px;
@@ -53,14 +55,20 @@ html,body{
 /****** FORM *******/
 form{
   width: 400px;
+  height: auto;
+  margin-top: -25px; /* OU position: relative; top:-15px */
+  margin-right: 50px;
+  padding: 20px 10px 0px 10px;
   float: right;
   background-color: white;
   color: #999999;
-  border: 10px solid #CCCCCC;
-  padding: 20px 10px 0px 10px;
-  margin-right: 50px;
-  margin-top: -30px;
-  /*appearance: none;*/
+  /* com background-clip:padding-box, a area do background vai ser descontando a borda */
+  /* background-origin tem o mesmo conceito para imagens */
+  background-clip: padding-box;
+
+  /* com o background-clip: padding-box, a borda nao vai ficar com white por tras, 
+     assim a trasnparencia da borda eh visivel */
+  border: 10px solid rgba(204, 204, 204, 0.5); 
 }
 form p{
   margin-left: 2px;
@@ -71,7 +79,7 @@ form > p:first-of-type{
   font-size: 20px;
 }
 form > p:last-of-type{
-  margin: 40px auto;
+  margin: 35px auto;
 }
 form > .field{
   margin: 15px auto;
@@ -82,6 +90,7 @@ form .field input[type=text]{
   border: 1px solid #CCCCCC;
 }
 form input[type=submit]{
+  cursor: pointer;
   border: none;
   background-color: #363A6D;
   color: white;
@@ -90,7 +99,9 @@ form input[type=submit]{
   font-size: x-large;
   margin-bottom: 20px;
 }
-
+form input[type=submit]:hover{
+  background-color: #262A5D;
+}
 
 /****** ABOUT ******/
 .about{
@@ -99,9 +110,13 @@ form input[type=submit]{
   height: auto;
   padding: 30px 380px 50px 380px;
 }
+.about h2{
+  font-weight: normal;
+}
 .about p{
   margin-top: 10px;
   font-size: 17px;
+  text-align: justify;
 }
 
 /****** ARROW ******/
@@ -119,9 +134,6 @@ form input[type=submit]{
   background-color: white;
   padding-bottom: 100px;
 }
-.serv-description div p{
-  font-size: 20px;
-}
 .services h2{
   margin-top: 60px;
   margin-bottom: 80px;
@@ -129,13 +141,18 @@ form input[type=submit]{
   font-weight: normal;
 }
 .serv-description div{
-  width: 20%;
-  margin: auto 5%;
+  width: 33%;
+  /*margin: auto 5%*/;
   display: inline-block;
+  padding: 10px 30px;
 }
 .serv-description div h3{
   margin-top: 20px;
   margin-bottom: 10px;
+}
+.serv-description div p{
+  font-size: 18px;
+  text-align: justify;
 }
 
 /****** COPYRIGHT ******/
