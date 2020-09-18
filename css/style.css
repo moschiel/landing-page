@@ -208,7 +208,8 @@ html,body{
   }
   .banner{
     height: auto;
-    background-size: auto 100%;
+    background-clip: content-box;
+    background-size: 200% auto;
     position: static;
   }
   .list-container{
