@@ -8,7 +8,7 @@
 html,body{
   height: 100%;
   font-family: 'Open Sans', sans-serif;
-  background-color: red;
+  background-color: red; /* for debug */
 }
 
 .center{
@@ -142,33 +142,34 @@ html,body{
 .arrow{
   height: 0px;
   vertical-align: middle;
-  margin-top: -20px;
-  background-color: pink;
+  background-color: pink; /* for debug */
 }
 .arrow img{
   width: 40px;
+  margin-top: -25px;
 }
 
 /****** SERVICES ******/
 .services{
   background-color: white;
-  background-color: green; /* for debug */
+  /*background-color: green;*/ /* for debug */
   padding-bottom: 100px;
   width: 100%;
   height: auto;
 }
 .services > h2{
-  margin: 60px 10px 80px 10px;
+  margin: 0px 10px 80px 10px;
+  padding-top: 60px;
   color: #472663;
   font-weight: normal;
 }
 .serv-description{
-  background-color: yellow; /* for debug */
+  /*background-color: yellow;*/ /* for debug */
   width: 100%;
   height: auto;
 }
 .serv-description > div{
-  background-color: aqua; /* for debug */
+  /*background-color: aqua;*/ /* for debug */
   width: calc(100% / 3);
   display: inline-block;
   margin-right: -8px;
