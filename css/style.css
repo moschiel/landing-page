@@ -8,7 +8,7 @@
 html,body{
   height: 100%;
   font-family: 'Open Sans', sans-serif;
-  background-color: red; /* for debug */
+  /* background-color: red;*/ /* for debug */
 }
 
 .center{
@@ -29,7 +29,8 @@ html,body{
 /***** BANNER ******/
 .banner{
   width: 100%;
-  height: 73%;
+  height: 500px;
+  min-height: 500px;
   background-image: url("../images/header_bg.png");
   background-size: 100% 100%;
   position: relative;
@@ -37,7 +38,7 @@ html,body{
 
 /***** LIST  *****/
 .list-container{
-  /*border: 2px solid yellow;*/ /*for debug */
+  /* border: 2px solid yellow;*/ /*for debug */
   width: 50%;
   position: absolute;
   top: 0px;
@@ -59,7 +60,7 @@ html,body{
 
 /****** FORM *******/
 .form-container{
-  /*border: 4px solid orchid;*/ /* for debug */
+  /* border: 4px solid orchid;*/ /* for debug */
   width: 35%;
   height: 100%;
   position: absolute;
@@ -125,6 +126,7 @@ html,body{
 /****** ABOUT ******/
 .about{
   background-color: #DDDDDD;
+  /* border: 2px solid yellow; *//*for debug */
   width: 100%;
   height: auto;
   padding: 30px 25% 50px 25%;
@@ -140,13 +142,14 @@ html,body{
 
 /****** ARROW ******/
 .arrow{
+  /* border: 2px solid blue; */ /* for debug */
   height: 0px;
   vertical-align: middle;
   background-color: pink; /* for debug */
 }
 .arrow img{
   width: 40px;
-  margin-top: -25px;
+  margin-top: -20px;
 }
 
 /****** SERVICES ******/
@@ -199,6 +202,10 @@ html,body{
 }
 
 @media screen and (max-width: 700px){
+  
+  .header img{
+    margin-left: 20px;
+  }
   .banner{
     height: auto;
     background-size: auto 100%;
@@ -215,6 +222,7 @@ html,body{
     width: calc(100% - 40px);
     margin-left: calc(40px / 2);
     height: 100%;
+    margin-top: 50px;
     margin-bottom: -25px;
     display: inline-block;
     z-index: 10;
@@ -223,10 +231,15 @@ html,body{
     position: static;
   }
   .about{
-    padding: 30px 10% 50px 10%;
+    padding: 50px 10% 50px 10%;
   }
   .serv-description > div{
     width: 100%;
     margin-right: 0px;
+    margin-bottom: 30px
+  }
+  .serv-description > div:last-of-type{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
   }
 }
