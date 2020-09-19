@@ -1,5 +1,5 @@
-# resposive-landing-page
-Desenvolvido réplica de uma landing page sem olhar previamente o código da página.
+# responsive-landing-page
+Desenvolvido réplica de uma landing page sem ver o código da página.
 
 ### Design proposto em curso na Danki Code:
 ![](./design-landing-page.png)
