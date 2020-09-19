@@ -95,13 +95,15 @@ html,body{
 .form-container form > p:last-of-type{
   margin: 35px auto;
 }
-.form-container .field{
+.field{
   margin: 15px auto;
 }
-.form-container .field input[type=text]{
+.field input[type=text], 
+.field input[type=email]{
   width: 100%;
   height: 45px;
   border: 1px solid #CCCCCC;
+  padding-left: 10px;
 }
 .form-container input[type=submit]{
   cursor: pointer;
@@ -123,6 +125,7 @@ html,body{
   top: 100%; /* apartir do topo do banner, desse 100% do banner*/
   z-index: 0;
 }
+
 /****** ABOUT ******/
 .about{
   background-color: #DDDDDD;
