@@ -1,6 +1,8 @@
 # resposive-landing-page
 Desenvolvido réplica de uma landing page sem olhar previamente o código da página.
-O design da pagina foi proposto pela DankiCode durante curso realizado.
+
+### Design proposto em curso na Danki Code
+![](./design-landing-page.png)
 
 ### Utilidade:
 - Praticar design responsivo usando HTML e CSS
