@@ -16,7 +16,7 @@ Reproduction of the following design using HTML/CSS
 - Open file <b>index.html</b> in any browser you like ( Ex: Chrome, Firefox... )
 
 ### Responsive Mode
-For testing responsitivity, resize your browser windows as you like.
+For testing responsivity, resize your browser windows as you like.
 
 ### Images Source
 - [Danki Code](https://cursos.dankicode.com/)
