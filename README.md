@@ -1,23 +1,22 @@
 # responsive-landing-page
-Desenvolvido réplica de uma landing page sem consultar o código da página.
+Reproduction of the following design using HTML/CSS
 
-### Design proposto em curso na Danki Code:
 ![](./design-landing-page.png)
 
-### Utilidade:
-- Praticar design responsivo usando HTML e CSS
+### Utility:
+- Pratice responsive design using HTML and CSS
 
 #### Material:
 - HTML, CSS
 
-#### Modo de uso:
-- Abra um terminal ( cmd/prompt de comando/bash etc... )
-- Clone o repositório ( <b>git clone https://github.com/moschiel/responsive-landing-page.git</b> ) em algum local de preferência
-- Acesse a pasta <b>resposive-landing-page</b>
-- E abra o arquivo <b>index.html</b> em seu navegador de preferência ( Ex: Chrome, Firefox... )
+#### Tutorial:
+- Open terminal ( cmd, bash, etc... )
+- Clone the repository ( <b>git clone https://github.com/moschiel/responsive-landing-page.git</b> ) in any directory you like.
+- Access the folder <b>clone-facebook-screen-login</b>
+- Open file <b>index.html</b> in any browser you like ( Ex: Chrome, Firefox... )
 
-### Modo responsivo
-Deixe o navegador em Responsive Design Mode ( Firefox - Ctrl + Shift + M )
+### Responsive Mode
+For testing responsitivity, resize your browser windows as you like.
 
-### Créditos das Imagem Utilizadas
+### Images Source
 - [Danki Code](https://cursos.dankicode.com/)
